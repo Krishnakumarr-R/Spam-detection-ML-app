@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Streamlit
+.streamlit/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Model files (large files - optional, see note below)
+# Uncomment these lines if your model files are too large (>100MB)
+# *.joblib
+# *.pkl
+
+# Data files (optional - uncomment if you don't want to share dataset)
+# *.csv
+# mail_data.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
