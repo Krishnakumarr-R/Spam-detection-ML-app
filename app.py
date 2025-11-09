@@ -155,7 +155,6 @@ with col1:
         value=st.session_state.email_input,
         height=250,
         placeholder="Example: WINNER!! You have been selected to receive a prize...",
-        key="email_text"
     )
     
     col_btn1, col_btn2 = st.columns([3, 1])
@@ -229,6 +228,10 @@ with col1:
                     st.progress(prediction_proba[0][0])
                     st.markdown("**Legitimate (Ham)**")
                     st.progress(prediction_proba[0][1])
+    
+    # Update session state when text area changes
+    if user_input != st.session_state.email_input:
+        st.session_state.email_input = user_input
 
 # Sidebar with examples
 with col2:

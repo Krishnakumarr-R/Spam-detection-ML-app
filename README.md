@@ -31,8 +31,8 @@ An AI-powered email spam detection application built with **Streamlit** and **Ma
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/spam-email-classifier.git
-cd spam-email-classifier
+https://github.com/Krishnakumarr-R/Spam-detection-ML-app.git
+cd Spam-detection-ML-app
 ```
 
 2. **Create virtual environment**
@@ -114,7 +114,7 @@ If you want to retrain the model with your own dataset:
 1. Place your `mail_data.csv` in the project folder (should have 'Message' and 'Category' columns)
 2. Run the training script:
 ```bash
-python train_model.py
+python complete_training_script.py
 ```
 3. The script will create new model files automatically
 
